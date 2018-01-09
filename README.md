@@ -7,7 +7,7 @@ The framework fully supports continious integration and optimizes development an
 
 # Get Started
 
-Get started first with a demo go to: [ApplicationDemo](https://github.com/WorkplaceX/ApplicationDemo)
+Get started with a demo: [ApplicationDemo](https://github.com/WorkplaceX/ApplicationDemo)
 
 Use ApplicationStart to get started with your own application: [ApplicationStart](https://github.com/WorkplaceX/ApplicationStart)
 
