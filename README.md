@@ -11,3 +11,8 @@ Get started with: [ApplicationDemo](https://github.com/WorkplaceX/ApplicationDem
 
 Use ApplicationStart to get started with your own application: [ApplicationStart](https://github.com/WorkplaceX/ApplicationStart)
 
+# Live example
+
+See a live example at: [http://demo.WorkplaceX.com](http://demo.workplacex.com)
+
+WorkplaceX Business Application can also be embedded into any web page. It looks like this:
