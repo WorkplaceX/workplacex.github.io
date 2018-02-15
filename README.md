@@ -15,6 +15,6 @@ Use ApplicationStart to get started with your own application: [ApplicationStart
 
 See a live example at: [http://demo.WorkplaceX.com](http://demo.workplacex.com)
 
-WorkplaceX Business Application can also be embedded into any web page. It looks like this (Beta Release):
+WorkplaceX Business Application can also be embedded into any web page. See also: [EmbeddedApplication](https://github.com/WorkplaceX/Framework/wiki/Embedded-Application) It looks like this (Beta Release):
 
 <hr/>
