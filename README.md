@@ -3,16 +3,12 @@ WorkplaceX is an open source framework to build enterprise business applications
 
 Allow thousands of users to access and manage your companies data in a controlled manner. Be flexible and evolve business models as the marked changes.
 
-Deliver complex web applications very fast, without touching Html or JavaScript. The framework fully supports continuous integration (CI) and optimizes development cycles.
+Deliver complex web applications very fast, without having to touch Html or JavaScript. The framework fully supports continuous integration (CI) and optimizes development cycles.
 
-# Get Started
+# Live Example
 
-Get started with: [ApplicationDemo](https://github.com/WorkplaceX/ApplicationDemo)
+See ApplicationDemo example live at: [http://demo.WorkplaceX.com](http://demo.workplacex.com)
 
-Use ApplicationStart to get started with your own application: [ApplicationStart](https://github.com/WorkplaceX/ApplicationStart)
+Or download the source code here: [ApplicationDemo](https://github.com/WorkplaceX/ApplicationDemo)
 
-# Live example
-
-See a live example at: [http://demo.WorkplaceX.com](http://demo.workplacex.com)
-
-WorkplaceX business applications can also be embedded into any company web page. This is how it works: [EmbeddedApplication](https://github.com/WorkplaceX/Framework/wiki/Embedded-Application). It looks like this (Beta Release):
+Additionally, WorkplaceX business applications run also embedded in SharePoint or on any company web page. This is how it works: [EmbeddedApplication](https://github.com/WorkplaceX/Framework/wiki/Embedded-Application). And this is how it looks like (Beta Release):
