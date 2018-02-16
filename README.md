@@ -7,7 +7,7 @@ Deliver complex web applications very fast, without having to touch Html or Java
 
 # Live Example
 
-See ApplicationDemo example live at: [http://demo.WorkplaceX.com](http://demo.workplacex.com)
+See an ApplicationDemo example live at: [http://demo.WorkplaceX.com](http://demo.workplacex.com)
 
 Or download the source code here: [ApplicationDemo](https://github.com/WorkplaceX/ApplicationDemo)
 
