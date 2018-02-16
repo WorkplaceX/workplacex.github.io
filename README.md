@@ -1,9 +1,9 @@
 # Welcome
-WorkplaceX is a an open source framework to build enterprise business applications on top of existing SQL Server Databases. It can be hosted on premise or in the cloud. 
+WorkplaceX is an open source framework to build enterprise business applications on top of existing SQL Server Databases. It can be hosted on premise or in the cloud. 
 
 Allow thousands of users to access and manage your companies data in a controlled manner. Be flexible and evolve business models as the marked changes.
 
-Deliver complex web applications very fast without having to touch Html or JavaScript. The framework fully supports continious integration (CI) and optimizes development cycles.
+Deliver complex web applications very fast without touching Html or JavaScript. The framework fully supports continuous integration (CI) and optimizes development cycles.
 
 # Get Started
 
