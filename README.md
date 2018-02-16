@@ -5,7 +5,7 @@ Allow thousands of users to access and manage your companies data in a controlle
 
 Deliver complex web applications very fast, without having to touch Html or JavaScript. The framework fully supports continuous integration (CI) and optimizes development cycles.
 
-# LIVE Example
+# Live Example
 
 See a live example: [http://demo.WorkplaceX.com](http://demo.workplacex.com)
 
