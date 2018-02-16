@@ -3,7 +3,7 @@ WorkplaceX is an open source framework to build enterprise business applications
 
 Allow thousands of users to access and manage your companies data in a controlled manner. Be flexible and evolve business models as the marked changes.
 
-Deliver complex web applications very fast and without writing Html or JavaScript. The framework fully supports continuous integration (CI) and optimizes development cycles.
+Deliver complex web applications very fast, without touching Html or JavaScript. The framework fully supports continuous integration (CI) and optimizes development cycles.
 
 # Get Started
 
