@@ -12,3 +12,5 @@ See a live example: [http://demo.WorkplaceX.org](http://demo.workplacex.org)
 Or download the source code here: [ApplicationDemo](https://github.com/WorkplaceX/Application)
 
 Additionally, WorkplaceX business applications run also embedded in SharePoint or on any company web page. This is how it works: [EmbeddedApplication](https://github.com/WorkplaceX/Framework/wiki/Embedded-Application). And this is how it looks like (Beta Release):
+
+2018-12-19
