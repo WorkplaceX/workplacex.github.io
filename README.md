@@ -1,7 +1,7 @@
 # Welcome
-WorkplaceX is an open source framework providing the following functionalities out of the box:
+WorkplaceX is an open source framework delivering the following functionalities "out of the box":
 
-* Browser front end (desktop and mobile)
+* Web browser front end (desktop and mobile)
 * Data grids (high performance with millions of records and hundreds of columns)
 * Paging (horizontal and vertical), sorting, filtering
 * Autocomplete function
@@ -11,11 +11,11 @@ WorkplaceX is an open source framework providing the following functionalities o
 * Multilanguage support
 * Configuration
 
-It standardizes and simplifies the process of building enterprise business applications on top of existing SQL Server Databases. It can be hosted on premise or in the cloud and is based on the following components:
+It standardizes and simplifies the process of building enterprise business applications on top of existing SQL Server Databases. It can be hosted on premise or in the cloud and is based on the following products:
 
 * ASP.NET Core 2.1
 * Bootstrap 4
-* Angular 6
+* Angular 6 (Including server side rendering for high performance first page load and SEO optimization)
 
 Allow thousands of users to access and manage your companies data in a controlled manner. Be flexible and evolve business models as the marked changes.
 
