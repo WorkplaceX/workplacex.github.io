@@ -23,7 +23,7 @@ Deliver complex web applications very fast, without having to touch Html or Java
 
 # Live Example
 
-See a live example: [http://demo.WorkplaceX.org](http://demo.workplacex.org)
+See a live example: [https://demo.WorkplaceX.org](https://demo.workplacex.org)
 
 Or download the source code here: [ApplicationDemo](https://github.com/WorkplaceX/Application)
 
