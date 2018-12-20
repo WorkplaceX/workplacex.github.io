@@ -2,8 +2,9 @@
 WorkplaceX is an open source framework providing the following functionalities out of the box:
 
 * Browser front end (desktop and mobile)
-* Data grids
-* Paging, sorting, filtering
+* Data grids (high performance with millions of records and hundreds of columns)
+* Paging (horizontal and vertical), sorting, filtering
+* Autocomplete function
 * Master detail relations
 * Data access to SQL server or/and memory
 * Field look up windows
