@@ -1,4 +1,4 @@
-# Welcome
+# Application Framework
 WorkplaceX is an open source framework delivering the following functionalities "out of the box":
 
 * Web browser front end (desktop and mobile)
