@@ -40,12 +40,12 @@ public class AppMain : AppJson
 
     protected override async Task InitAsync()
     {
-        await this.ComponentCreate<Grid>().LoadAsync();
+        await this.ComponentCreate<Grid>().LoadAsync(); // Create a reference point in component tree and initiate loading.
     }
 
     protected override IQueryable GridQuery(Grid grid)
     {
-        return UtilDal.Query<HelloWorld>().Where(item => item.IsActive == true);
+        return UtilDal.Query<HelloWorld>().Where(item => item.IsActive == true); // Define the linq query.
     }
 }
 ```
