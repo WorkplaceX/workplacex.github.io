@@ -67,6 +67,13 @@ By default it comes with
 
 ![Data grid](Doc/Grid.png)
 
+Following command line command generates for every table and view a Csharp code class in the file "C:\Temp\GitHub\Application\Application.Database\Database.cs"
+
+```powershell
+.\cli.cmd generate
+```
+
+
 ## Data Annotation
 
 Now lets add some annotation. If the number is positive it should show a green arrow up and if the number is negative a red arrow down. For this we override the method GridCellAnnotation(); like this:
@@ -93,7 +100,7 @@ protected override void GridCellAnnotation(Grid grid, string fieldName, GridRowE
 }
 ```
 
-The arrows icons are provided by Font Awesome. The framework uses by default the template at "Application\Website" (which can be viewed and edited with "npm start" command). In the styles.css we add the two css classes ".red" and ".green". 
+Arrow icons are provided by Font Awesome. The framework uses by default the web site template at "Application\Website" (which can be viewed and edited with "npm start" command). In the styles.css we add the two css classes ".red" and ".green". 
 
 ```css
 .red {
@@ -107,7 +114,7 @@ The arrows icons are provided by Font Awesome. The framework uses by default the
 
 After template changes it is necessary to run the command line build command ("-c" parameter stands for build web client only)
 
-```shell
+```powershell
 .\cli.cmd build -c
 ```
 
