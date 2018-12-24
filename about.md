@@ -7,4 +7,4 @@ active: 1
 
 # About
 
-WorkplaceX is an application framework helping developers to write LOB (Line of Business) applications.
+WorkplaceX is an initiative to help developers and companies to write LOB (Line of Business) applications.
