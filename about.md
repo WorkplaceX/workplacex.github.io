@@ -1,6 +1,6 @@
 ---
 title: About
-filename: about
+path: about
 pageindex: 1
 --- 
 
