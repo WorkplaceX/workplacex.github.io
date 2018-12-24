@@ -1,6 +1,6 @@
 ---
 title: Home
-filename: /
+path: /
 pageindex: 0
 --- 
 
