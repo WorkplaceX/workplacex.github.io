@@ -1,5 +1,5 @@
 ---
-title: About
+title: About WorkplaceX.org
 --- 
 
-# About WorkplaceX.org
+# About
