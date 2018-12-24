@@ -67,7 +67,7 @@ By default it comes with
 
 ![Data grid](Doc/Grid.png)
 
-Following command line command generates for every table and view a Csharp code class in the file "C:\Temp\GitHub\Application\Application.Database\Database.cs"
+Following command line command generates for every table and view a Csharp code class in the file "Application\Application.Database\Database.cs"
 
 ```powershell
 .\cli.cmd generate
