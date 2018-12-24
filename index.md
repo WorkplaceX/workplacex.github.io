@@ -1,5 +1,5 @@
 ---
 title: Home
-filename: 
+filename: /
 --- 
 # Home
