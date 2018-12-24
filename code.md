@@ -9,6 +9,8 @@ active: 1
 
 Following simple code examples help to get started with the framework.
 
+* [Data Annotation](#data-annotation)
+
 ## Hello World
 
 Render simple "Hello World" text to the web application. The class AppMain represents the main application and derives from frameworks AppJson class. The parameterless constructor is used for json deserialization. The second constructor is used when the object is created programmatically. For example with the extension method ComponentCreate();
@@ -60,9 +62,10 @@ By default it comes with
 * Sorting
 * Filtering
 * Adding new records
+
 ![Data grid](Doc/Grid.png)
 
-## Annotation
+## Data Annotation
 
 Now lets add some annotation. If the number is positive it should show a green arrow up and if the number is negative a red arrow down. For this we override the method GridCellAnnotation(); like this:
 
