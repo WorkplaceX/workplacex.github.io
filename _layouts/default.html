@@ -38,7 +38,7 @@
       
 {% assign doclist = site.pages | sort: 'pageindex'  %}      
 {% for page in doclist %}
-    <a href={{ page.filename }} class="btn">{{ page.title }}</a>
+    <a href={{ page.path }} class="btn">{{ page.title }}</a>
 {% endfor %}
       1918
     </section>
