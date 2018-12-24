@@ -1,6 +1,7 @@
 ---
 title: Home
 path: /
+active: 1
 pageindex: 0
 --- 
 
