@@ -51,3 +51,43 @@ public class AppMain : AppJson
     }
 }
 ```
+
+Following screenshot shows on the left hand side Management Studio with the data table and on the right hand side the same table in the web application.
+
+By default it comes with
+
+* Paging
+* Sorting
+* Filtering
+* Adding new records
+![Data grid](Doc/Grid.png)
+
+## Annotation
+
+Now lets add some annotation. If the number is positive it should show a green arrow up and if the number is negative a red arrow down. For this we override the method GridCellAnnotation(); like this:
+
+```csharp
+protected override void GridCellAnnotation(Grid grid, string fieldName, GridRowEnum gridRowEnum, Row row, GridCellAnnotationResult result)
+{
+    HelloWorld helloWorld = row as HelloWorld;
+    if (fieldName == nameof(HelloWorld.Number))
+    {
+        if (helloWorld?.Number > 0)
+        {
+            result.HtmlLeft = "<i class='fas fa-arrow-up green'></i>";
+        }
+        if (helloWorld?.Number < 0)
+        {
+            result.HtmlLeft = "<i class='fas fa-arrow-down red'></i>";
+        }
+        if (helloWorld?.Number == 0)
+        {
+            result.HtmlLeft = "<i class='fas fa-arrow-right'></i>";
+        }
+    }
+}
+```
+
+Now the data grid looks like this:
+
+![Data grid with annotation](Doc/GridAnnotation.png)
