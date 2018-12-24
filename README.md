@@ -1,3 +1,9 @@
+---
+title: Home
+filename: /
+pageindex: 0
+--- 
+
 # Application Framework
 WorkplaceX is an open source framework providing a modern user interface and helping businesses to simplify the application development process. The framework provides the following functions "out of the box":
 
