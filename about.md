@@ -1,5 +1,5 @@
 ---
-title: About WorkplaceX.org
+title: About
 filename: about
 --- 
 
