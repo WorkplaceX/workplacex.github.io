@@ -9,7 +9,9 @@ active: 1
 
 Following simple code examples help to get started with the framework.
 
-* [Data Annotation](#data-annotation)
+* [Hello World](#hello-world) Show simple hello world text on application
+* [Data Grid](#data-grid) Let's add an sql server data grid to the web application
+* [Data Annotation](#data-annotation) (Green arrow up for positive numbers)
 
 ## Hello World
 
@@ -89,6 +91,24 @@ protected override void GridCellAnnotation(Grid grid, string fieldName, GridRowE
         }
     }
 }
+```
+
+The arrows icons are provided by Font Awesome. The framework uses by default the template at "Application\Website" (which can be viewed and edited with "npm start" command). In the styles.css we add the two css classes ".red" and ".green". 
+
+```css
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+```
+
+After template changes it is necessary to run the command line build command ("-c" parameter stands for build web client only)
+
+```shell
+.\cli.cmd build -c
 ```
 
 Now the data grid looks like this:
