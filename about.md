@@ -21,6 +21,7 @@ Your support is vital in enabling Workplacex.org initiative to fulfill its missi
 
 * Give us a star on GitHub
 * Submit an Issue
+* Make suggestions for new features you'd like to see
 * Change code and submit a pull request
 * Update documentation and send a pull request
 * Use it in your next project
