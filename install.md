@@ -23,16 +23,16 @@ cd Application
 ```
 This will show all available commands of framework CLI:
 
-![Cli](https://raw.githubusercontent.com/WorkplaceX/Framework/master/Doc/Cli.png)
+![Cli](Doc/Cli.png)
 
 ## ConnectionString
-Set ConnectionString with cli:
+Set ConnectionString with command line interface:
 ```cmd
 .\cli.cmd config ConnectionString="Data Source=localhost; Initial Catalog=Application; Integrated Security=True;"
 ```
 
 ## Deploy Sql Tables
-Run deploy script from command line interface
+Run deploy script from command line interface to deploy necessary sql tables and views.
 ```cmd
 .\cli.cmd deployDb
 ```
