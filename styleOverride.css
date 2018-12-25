@@ -1,3 +1,23 @@
 .main-content table td{ padding:0px; }
 .main-content table th{ padding:0px; }
 .main-content table { display:table; }
+
+@media screen and (max-width: 42em)
+.btn {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+@media screen and (max-width: 42em)
+.btn+.btn {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+body {
+  background-color:yellow;
+}
