@@ -7,7 +7,7 @@ active: 1
 
 # About
 
-WorkplaceX is an initiative to simplify and standardize the development of business applications.
+WorkplaceX is an initiative to simplify and standardize the development prozess of business applications.
 
 ## Online Support
 
