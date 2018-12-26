@@ -7,7 +7,7 @@ active: 1
 
 # Getting Started
 
-"Demo" application is a comprehensive example to get started with. The following two components need to be installed as prerequiste:
+"Demo" application is a comprehensive example to get started with. The following two components need to be installed as prerequisite:
 
 * .NET Core https://dotnet.microsoft.com/download (Version 2.1)
 * nodejs https://nodejs.org/en/ (LTS Version)
