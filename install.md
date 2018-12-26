@@ -7,24 +7,24 @@ active: 1
 
 # Getting Started
 
-Demo application is a comprehensive example to get started. The following two components need to be installed as prerequiste:
+"Demo" application is a comprehensive example to get started with. The following two components need to be installed as prerequiste:
 
 * .NET Core https://dotnet.microsoft.com/download (Version 2.1)
 * nodejs https://nodejs.org/en/ (LTS Version)
 
-## Clone
+## Git Clone
 ```cmd
 git clone https://github.com/WorkplaceX/ApplicationDemo.git --recursive
 ```
-Recursive argument enables additional cloning of submodule (Framework).
+Argument "--Recursive" enables additional cloning of submodule (Framework).
 
 ## Command Line Interface (CLI)
 In the root folder type cli for framework cli.
 ```cmd
-cd Application
+cd ApplicationDemp
 .\cli.cmd
 ```
-This will show all available commands of framework CLI:
+This will show all available framework CLI commands:
 
 ![Cli](Doc/Cli.png)
 
@@ -35,15 +35,15 @@ Set ConnectionString with command line interface:
 ```
 
 ## Deploy Sql Tables
-Run deploy script from command line interface to deploy necessary sql tables and views.
+Run sql deploy script from command line interface to deploy necessary sql tables and views.
 ```cmd
 .\cli.cmd deployDb
 ```
 
 ## Start
-Start and serve the application from command line
+Serve the application from command line:
 ```cmd
 .\cli.cmd start
 ```
 
-Web browser opens on "https://localhost:56094/"
+Web browser opens on "https://localhost:56094/" and serves "Demo" application.
