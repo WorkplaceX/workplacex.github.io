@@ -17,7 +17,7 @@ We provide online support. Send us an email to **info(at)workplacex.org**
 Is WorkplaceX production ready? We are almost there :-) At this stage use it to acquire new projects and convince customers. The api's are quiet stable and we do not expect any major changes. Also use it for non-critical internal applications. We update this page frequently about current progress.
 
 ## Support Us
-Your support is vital in enabling Workplacex.org initiative to fulfill its mission to share and further develop its code base. You can do so and
+Your support is vital in enabling Workplacex.org initiative to fulfill its mission to share and further develop its code base. You can do so by:
 
 * Make suggestions for new features you'd like to see
 * Let others know about it
