@@ -16,7 +16,7 @@ active: 1
 ```cmd
 git clone https://github.com/WorkplaceX/ApplicationDemo.git --recursive
 ```
-Argument "--Recursive" enables additional cloning of submodule (Framework).
+Argument "--Recursive" clones also necessary submodule (Framework).
 
 ## Command Line Interface (CLI)
 The framework provides a command line interface (CLI) with all necessary functions like build, deploy and so on. In the root folder type cli.
