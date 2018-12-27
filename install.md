@@ -47,3 +47,15 @@ Serve the application from command line:
 ```
 
 Web browser opens on "https://localhost:56094/" and serves "Demo" application.
+
+## Custom Sql Table and View
+
+Finally let's wiretap any other sql table or view.
+
+Following cli command generates for every table and view a Csharp code class in the file "Application\Application.Database\Database.cs"
+
+```cmd
+.\cli.cmd generate
+```
+
+Follow the [code examples](code) article to display a table or view in the web application.
