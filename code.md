@@ -9,11 +9,12 @@ active: 1
 
 Following simple code examples help to get started with the framework.
 
-* [Hello World](#hello-world) Show simple hello world text on application
-* [Data Grid](#data-grid) Let's add an sql server data grid to the web application
+* [Hello World Text](#hello-world-text) (Show simple hello world text)
+* [Data Grid](#data-grid) (Add sql server data grid to web application)
 * [Data Annotation](#data-annotation) (Green arrow up for positive numbers)
+* [Customize Design](#customize-design) (Change web site template)
 
-## Hello World
+## Hello World Text
 
 Render simple "Hello World" text to the web application. The class AppMain represents the main application and derives from frameworks AppJson class. The parameterless constructor is used for json deserialization. The second constructor is used when the object is created programmatically. For example with the extension method ComponentCreate();
 
@@ -100,9 +101,21 @@ protected override void GridCellAnnotation(Grid grid, string fieldName, GridRowE
 }
 ```
 
-Arrow icons are provided by Font Awesome. The framework uses by default the web site template at "Application\Website" (which can be viewed and edited with "npm start" command). In the styles.css we add the two css classes ".red" and ".green". 
+Now the data grid looks like this:
 
-```css
+![Data grid with annotation](Doc/GridAnnotation.png)
+
+# Customize Design
+
+The web site template is found at folder "Application\Website\". To develop and change the design type 
+
+```cmd
+npm start
+```
+
+An empty web site with styles, Bootstrap and Font Awesome references is shown at: http://localhost:8081/. The framework replaces the html tag "data-app" with the application. In order to change the color of the arrows in the example above update the style.css file like this:
+
+```
 .red {
     color: red;
 }
@@ -118,6 +131,3 @@ After template changes it is necessary to run the command line build command ("-
 .\cli.cmd build -c
 ```
 
-Now the data grid looks like this:
-
-![Data grid with annotation](Doc/GridAnnotation.png)
