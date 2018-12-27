@@ -34,6 +34,10 @@ Set ConnectionString with command line interface:
 .\cli.cmd config ConnectionString="Data Source=localhost; Initial Catalog=Application; Integrated Security=True;"
 ```
 
+It creates or updates the files: "ConfigCli.json" and "ConfigWebServer.json".
+
+**Note:** Why does "ConfigCli.json" and "ConfigWebServer.json" have two ConnectionStrings? The framework needs a couple of sql tables (prefixed with "Framework") to run. These tables can be deployed to a second empty database. This makes it possible to wiretap an existing production database initially with a ready only user login. Like this it's possible to test and demonstrate the frameworks capability to customers in a non-critical way.
+
 ## Deploy Sql Tables
 Run sql deploy script from command line interface to deploy necessary sql tables and views.
 ```cmd
