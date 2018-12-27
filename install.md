@@ -19,12 +19,12 @@ git clone https://github.com/WorkplaceX/ApplicationDemo.git --recursive
 Argument "--Recursive" enables additional cloning of submodule (Framework).
 
 ## Command Line Interface (CLI)
-In the root folder type cli for framework cli.
+The framework provides a command line interface (CLI) with all necessary functions like build, deploy and so on. In the root folder type cli.
 ```cmd
 cd ApplicationDemo
 .\cli.cmd
 ```
-This will show all available framework CLI commands:
+All framework CLI commands are shown:
 
 ![Cli](Doc/Cli.png)
 
