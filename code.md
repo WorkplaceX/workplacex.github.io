@@ -34,7 +34,7 @@ public class AppMain : AppJson
 ```
 
 ## Data Grid
-Now let's add a data grid to our web application. The extension method ComponentCreate<Grid>(); creates a reference point in our json component tree. The method LoadAsync(); initiates the loading of data. In the method GridQuery(); we define the linq query to be executed (either to database or in memory). Additionally in this example we do a primary filtering on "IsActive" records.
+Now let's add a data grid to our web application. The extension method ComponentCreate<Grid>(); creates a reference point in our json component tree. The method LoadAsync(); initiates the loading of data. In the method GridQuery(); we define the linq query to be executed (either to database or in memory). Additionally in this example we do a primary filtering on "IsActive" records and sort the grid by default by the column "Text".
 
 ```csharp
 public class AppMain : AppJson
@@ -51,8 +51,8 @@ public class AppMain : AppJson
 
     protected override IQueryable GridQuery(Grid grid)
     {
-        // Define the linq query.
-        return UtilDal.Query<HelloWorld>().Where(item => item.IsActive == true); 
+        // Define the linq query with default sorting.
+        return UtilDal.Query<HelloWorld>().Where(item => item.IsActive == true).OrderBy(item => item.Text);
     }
 }
 ```
@@ -76,8 +76,9 @@ Following command line command generates for every table and view a Csharp code 
 
 
 ## Data Annotation
+Adding visual icons to your data application brings a lot of benefits. For example just adding the phone icon [Font Awesome phone](https://fontawesome.com/icons/phone?style=solid) to the telephone column makes it look much more appealing to the end user.
 
-Now lets add some annotation. If the number is positive it should show a green arrow up and if the number is negative a red arrow down. For this we override the method GridCellAnnotation(); like this:
+Now lets consider an other example. If for example the number is positive a green arrow up should be shown and if the number is negative a red arrow down should be shown. For this we override the method GridCellAnnotation(); like this:
 
 ```csharp
 protected override void GridCellAnnotation(Grid grid, string fieldName, GridRowEnum gridRowEnum, Row row, GridCellAnnotationResult result)
@@ -104,6 +105,8 @@ protected override void GridCellAnnotation(Grid grid, string fieldName, GridRowE
 Now the data grid looks like this:
 
 ![Data grid with annotation](Doc/GridAnnotation.png)
+
+**Note:** The same method allows also to add images to the data grid cells.
 
 # Customize Design
 
