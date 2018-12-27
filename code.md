@@ -71,7 +71,7 @@ By default it comes with
 
 Following command line command generates for every table and view a Csharp code class in the file "Application\Application.Database\Database.cs"
 
-```powershell
+```cmd
 .\cli.cmd generate
 ```
 
@@ -113,6 +113,7 @@ Auto complete or data lookup windows allow users to select items from dynamic li
 
 Override the method GridLookupQuery(); to return the query for the look up window. And finally override the method GridLookupSelected(); to return the text that should go into the edit cell.
 
+```csharp
 public class AppMain : AppJson
 {
 	public AppMain() : this(null) { }
@@ -145,6 +146,9 @@ public class AppMain : AppJson
 		return ((CountryDisplay)rowLookupSelected).Country;
 	}
 }
+```
+
+Following screen shot shows open lookup or auto complete window on column "Text" to select a country.
 
 ![Data grid with lookup window](Doc/Lookup.png)
 
@@ -170,7 +174,7 @@ An empty web site with styles, Bootstrap and Font Awesome references is shown at
 
 After changing the template, it is necessary to run the command line build command ("-c" parameter stands for build web client only)
 
-```powershell
+```cmd
 .\cli.cmd build -c
 ```
 
