@@ -125,7 +125,7 @@ An empty web site with styles, Bootstrap and Font Awesome references is shown at
 }
 ```
 
-After template changes it is necessary to run the command line build command ("-c" parameter stands for build web client only)
+After changing the template it is necessary to run the command line build command ("-c" parameter stands for build web client only)
 
 ```powershell
 .\cli.cmd build -c
