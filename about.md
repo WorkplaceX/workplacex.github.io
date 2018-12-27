@@ -14,16 +14,16 @@ WorkplaceX is an initiative to simplify and standardize the development prozess 
 We provide online support. Send us an email to **info(at)workplacex.org**
 
 ## Production Ready
-Is WorkplaceX production ready? We are almost there :-) At this stage use it to acquire new projects and convince customers. Also use it for non-critical internal applications. We update this page frequently about current progress.
+Is WorkplaceX production ready? We are almost there :-) At this stage use it to acquire new projects and convince customers. The api's are quiet stable and we do not expect any major changes. Also use it for non-critical internal applications. We update this page frequently about current progress.
 
 ## Support Us
 Your support is vital in enabling Workplacex.org initiative to fulfill its mission to share and further develop its code base. You can do so and
 
-* Give us a star on GitHub
-* Submit an Issue
 * Make suggestions for new features you'd like to see
+* Let others know about it
+* Submit an Issue
+* Give us a star on GitHub
+* Fork us on GitHub
 * Change code and submit a pull request
 * Update documentation and send a pull request
 * Use it in your next project
-* Let others know about it
-
