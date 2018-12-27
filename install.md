@@ -7,10 +7,10 @@ active: 1
 
 # Getting Started
 
-"Demo" application is a comprehensive example to get started with. The following two components have to be already installed as prerequisite:
+"Demo" application is a comprehensive example to get started with. The following two components already need to be installed as prerequisite:
 
-* .NET Core https://dotnet.microsoft.com/download (Version 2.1)
-* nodejs https://nodejs.org/en/ (LTS Version)
+* [Node.js](https://nodejs.org/en/) (LTS Version)
+* [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
 
 ## Git Clone
 ```cmd
@@ -62,4 +62,4 @@ Following cli command generates for every table and view a Csharp code class in 
 .\cli.cmd generate
 ```
 
-Follow the [code examples](code) article to display a table or view in the web application.
+Follow this article on how to display an sql table or view in the web application: **[Code Examples](code)**
