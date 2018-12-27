@@ -62,19 +62,12 @@ Following screenshot shows on the left-hand side Management Studio with the data
 
 By default it comes with
 
-* Paging
+* Paging (Vertically and horizontally)
 * Sorting
 * Filtering
 * Adding new records
 
 ![Data grid](Doc/Grid.png)
-
-Following command line command generates for every table and view a Csharp code class in the file "Application\Application.Database\Database.cs"
-
-```cmd
-.\cli.cmd generate
-```
-
 
 ## Data Annotation
 Adding visual icons to your data application brings a lot of benefits. For example just adding the phone icon [Font Awesome phone](https://fontawesome.com/icons/phone?style=solid) to the telephone column makes it look much more appealing to the end user.
