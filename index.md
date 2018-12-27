@@ -13,8 +13,7 @@ WorkplaceX is an open source framework to simplify the development of business w
 * Paging (horizontal and vertical), sorting, filtering
 * Lookup window and autocomplete function
 * Master detail relations
-* Data access to SQL server or/and memory
-* Field look up windows
+* Data access to SQL server and/or memory
 * Multilanguage support
 * Configuration
 
@@ -26,7 +25,7 @@ It standardizes and simplifies the process of building enterprise business appli
 
 Allow thousands of users to access and manage your companies data in a controlled manner. Be flexible and evolve business models as the marked changes.
 
-Deliver complex web applications very fast, without having to touch Html or JavaScript. The framework fully supports continuous integration (CI) and optimizes development cycles.
+Deliver complex web applications, without having to touch Html or JavaScript when adding new sql columns, tables or views. The framework fully supports continuous integration and delivery (CI/CD) and optimizes development cycles.
 
 # Live Example
 
