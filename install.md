@@ -9,8 +9,8 @@ active: 1
 
 "Demo" application is a comprehensive example to get started with. The following two components already need to be installed as prerequisite:
 
-* **[Node.js](https://nodejs.org/en/)** (LTS Version)
-* **[.NET Core](https://dotnet.microsoft.com/download)** (Version 2.1)
+* [Node.js](https://nodejs.org/en/) (LTS Version)
+* [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
 
 ## Git Clone
 ```cmd
@@ -39,9 +39,17 @@ It creates or updates the files: "ConfigCli.json" and "ConfigWebServer.json".
 **Note:** Why does "ConfigCli.json" and "ConfigWebServer.json" have two ConnectionStrings? The framework needs a couple of sql tables (prefixed with "Framework") to run. These tables can be deployed to a second empty database. This makes it possible to wiretap an existing production database initially with a ready only user login. Like this it's possible to test and demonstrate the frameworks capabilities to customers in a non-critical way.
 
 ## Deploy Sql Tables
-Run sql deploy script from command line interface to deploy necessary sql tables and views.
+Run sql deploy script from command line interface to deploy necessary sql tables and views to database.
 ```cmd
 .\cli.cmd deployDb
+```
+
+**Note:** You can run the command "deployDb" multiple times. The database table "FrameworkScript" keeps track of the executed scripts. No script is executed twice on the same database. The sql scripts being executed are in folder: "Application.Cli\SqlScript\"
+
+## Build
+Build the application from command line:
+```cmd
+.\cli.cmd build
 ```
 
 ## Start
@@ -50,7 +58,7 @@ Serve the application from command line:
 .\cli.cmd start
 ```
 
-Web browser opens on "https://localhost:56094/" and serves "Demo" application.
+Web browser opens on "http://localhost:56098/" and serves "Demo" application.
 
 ## Custom Sql Table and View
 
