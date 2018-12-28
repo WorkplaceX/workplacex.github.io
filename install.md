@@ -45,6 +45,7 @@ Run sql deploy script from command line interface to deploy necessary sql tables
 .\cli.cmd deployDb
 ```
 
+{:.note}
 **Note:** You can run the command "deployDb" multiple times. The database table "FrameworkScript" keeps track of the executed scripts. No script is executed twice on the same database. The sql scripts being executed are in folder: "Application.Cli\SqlScript\"
 
 ## Build
