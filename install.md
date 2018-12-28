@@ -28,6 +28,12 @@ All framework CLI commands are shown:
 
 ![Cli](Doc/Cli.png)
 
+## Build
+Build the application from command line:
+```cmd
+.\cli.cmd build
+```
+
 ## ConnectionString
 Set ConnectionString with command line interface:
 ```cmd
@@ -47,12 +53,6 @@ Run sql deploy script from command line interface to deploy necessary sql tables
 
 {:.note}
 **Note:** You can run the command "deployDb" multiple times. The database table "FrameworkScript" keeps track of the executed scripts. No script is executed twice on the same database. The sql scripts being executed are in folder: "Application.Cli\SqlScript\"
-
-## Build
-Build the application from command line:
-```cmd
-.\cli.cmd build
-```
 
 ## Start
 Serve the application from command line:
