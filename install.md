@@ -7,7 +7,7 @@ active: 1
 
 # Getting Started
 
-"Demo" application is a comprehensive example to get started with. The following two components already need to be installed as prerequisite:
+"Demo" application is a comprehensive example to get started with. The following two components already need to be installed on the machine as prerequisite:
 
 * [Node.js](https://nodejs.org/en/) (LTS Version)
 * [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
@@ -16,7 +16,7 @@ active: 1
 ```cmd
 git clone https://github.com/WorkplaceX/ApplicationDemo.git --recursive
 ```
-Argument "--Recursive" clones also necessary submodule (Framework).
+Argument "--Recursive" clones also necessary submodule "Framework".
 
 ## Command Line Interface (CLI)
 The framework provides a command line interface (CLI) with all necessary functions like build, deploy and so on. In the root folder type cli.
@@ -24,7 +24,7 @@ The framework provides a command line interface (CLI) with all necessary functio
 cd ApplicationDemo
 .\cli.cmd
 ```
-All framework CLI commands are shown:
+All available framework CLI commands are listed like this:
 
 ![Cli](Doc/Cli.png)
 
@@ -43,7 +43,7 @@ Set ConnectionString with command line interface:
 It creates or updates the files: "ConfigCli.json" and "ConfigWebServer.json".
 
 {:.note}
-**Note:** Why does "ConfigCli.json" and "ConfigWebServer.json" have two ConnectionStrings? The framework needs a couple of sql tables (prefixed with "Framework") to run. These tables can be deployed to a second empty database. This makes it possible to wiretap an existing production database initially with a ready only user login. Like this it's possible to test and demonstrate the frameworks capabilities to customers in a non-critical way.
+**Note:** Why does "ConfigCli.json" and "ConfigWebServer.json" have two ConnectionStrings? The framework needs a couple of sql tables (prefixed with "Framework") to run. These tables can be deployed to a second, separate (empty) database. This makes it possible to wiretap an existing production database initially with a ready only user login. Like this it's possible to test and demonstrate the frameworks capabilities to customers in a non-critical way.
 
 ## Deploy Sql Tables
 Run sql deploy script from command line interface to deploy necessary sql tables and views to database.
@@ -64,9 +64,9 @@ Web browser opens on "http://localhost:56098/" and serves "Demo" application.
 
 ## Custom Sql Table and View
 
-Finally let's wiretap any other sql table or view.
+Finally let's wiretap any other sql table or view on the database.
 
-Following cli command generates for every table and view a Csharp code class in the file "Application\Application.Database\Database.cs"
+Following cli command generates for every table and view in the database a C# class in the file "Application\Application.Database\Database.cs"
 
 ```cmd
 .\cli.cmd generate
