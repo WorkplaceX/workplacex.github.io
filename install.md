@@ -12,9 +12,11 @@ active: 1
 * [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
 
 ## Tutorial Video
-Following git clone, build and deploy process is also shown in this video. 
+Following short 2:30 min video tutorial shows step by step installation process of git clone, build, deploy and starting web application.
 
+<div class="youtube-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bYJTl5axgUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Git Clone
 ```cmd
