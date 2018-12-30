@@ -7,7 +7,7 @@ active: 1
 
 # Code Examples
 
-Following simple code examples help to get started with the framework.
+Get started with the following simple code examples:
 
 * [Hello World Text](#hello-world-text) (Show simple hello world text)
 * [Data Grid](#data-grid) (Add sql server data grid to web application)
@@ -17,7 +17,7 @@ Following simple code examples help to get started with the framework.
 
 ## Hello World Text
 
-Render simple "Hello World" text to the web application. The class AppMain represents the main application and derives from frameworks AppJson class. The parameterless constructor is used for json deserialization. The second constructor is used when the object is created programmatically. For example with the extension method ComponentCreate();
+Let's render a simple "Hello World" text to the web application. The class AppMain represents the main application and derives from frameworks AppJson class. The parameterless constructor is used for json deserialization. The second constructor is used when the object is created programmatically. For example with the extension method ComponentCreate();
 
 ```csharp
 public class AppMain : AppJson
