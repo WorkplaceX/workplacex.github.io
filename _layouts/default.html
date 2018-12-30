@@ -37,8 +37,8 @@
       {% endif %}
       
 {% assign doclist = site.pages | where: 'active', '1' | sort: 'pageindex'  %}      
-{% for page in doclist %}
-    <a href="{{ page.path }}" class="btn {% if page.url == page.url %}active{% endif %}">{{ page.title }}</a>
+{% for item in doclist %}
+    <a href="{{ item.path }}" class="btn {% if item.url == page.url %}active{% endif %}">{{ item.title }}</a>
 {% endfor %}
       
     </section>
