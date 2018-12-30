@@ -1,6 +1,6 @@
 ---
 title: Code
-path: code.md
+path: code
 pageindex: 10
 active: 1
 --- 
