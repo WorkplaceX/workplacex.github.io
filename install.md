@@ -6,13 +6,13 @@ active: 1
 --- 
 
 # Getting Started
-
 "Demo" application is a comprehensive example to get started with. The following two components already need to be installed on the machine as prerequisite:
 
 * [Node.js](https://nodejs.org/en/) (LTS Version)
 * [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
 
-## Toturial Vido
+## Tutorial Video
+Following git clone, build and deploy process is also shown in this video. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bYJTl5axgUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
