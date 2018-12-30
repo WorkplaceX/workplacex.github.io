@@ -12,6 +12,10 @@ active: 1
 * [Node.js](https://nodejs.org/en/) (LTS Version)
 * [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
 
+## Toturial Vido
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bYJTl5axgUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Git Clone
 ```cmd
 git clone https://github.com/WorkplaceX/ApplicationDemo.git --recursive
