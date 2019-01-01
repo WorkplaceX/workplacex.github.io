@@ -52,8 +52,8 @@ public class AppMain : AppJson
 
     protected override IQueryable GridQuery(Grid grid)
     {
-        // Define the linq query with default sorting.
-        return UtilDal.Query<HelloWorld>().Where(item => item.IsActive == true).OrderBy(item => item.Text);
+        // Define linq query with default sorting.
+        return Data.Query<HelloWorld>().Where(item => item.IsActive == true).OrderBy(item => item.Text);
     }
 }
 ```
@@ -120,7 +120,7 @@ public class AppMain : AppJson
 
 	protected override IQueryable GridQuery(Grid grid)
 	{
-		return UtilDal.Query<HelloWorld>().OrderBy(item => item.Text);
+		return Data.Query<HelloWorld>().OrderBy(item => item.Text);
 	}
 
 	protected override IQueryable GridLookupQuery(Grid grid, Row row, string fieldName, string text)
@@ -128,7 +128,7 @@ public class AppMain : AppJson
 		if (fieldName == nameof(HelloWorld.Text))
 		{
 			// Return country query for look up window on column "Text".
-			return UtilDal.Query<CountryDisplay>().Where(item => item.Country.StartsWith(text)).OrderBy(item => item.Country);
+			return Data.Query<CountryDisplay>().Where(item => item.Country.StartsWith(text)).OrderBy(item => item.Country);
 		}
 		return null; // No lookup for other data columns
 	}
