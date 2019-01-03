@@ -139,7 +139,7 @@ public class AppMain : AppJson
 		return null; // No lookup for other data columns
 	}
 
-	protected override string GridLookupSelected(Grid grid, Row row, string fieldName, Row rowLookupSelected)
+        protected override string GridLookupRowSelected(Grid grid, string fieldName, GridRowEnum gridRowEnum, Row rowLookupSelected)
 	{
 		// User clicked a country row in the lookup window. Return the text that should go into the edit cell.
 		return ((CountryDisplay)rowLookupSelected).Country;
