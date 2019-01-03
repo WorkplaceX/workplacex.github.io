@@ -6,7 +6,7 @@ active: 1
 --- 
 
 # Web Application Framework
-WorkplaceX is an open source framework for web applications accessing SQL databases. The framework provides APIs for data centric applications with the following functions "out of the box":
+WorkplaceX is an open source framework to develop web applications accessing SQL databases. The framework provides APIs with the following functions "out of the box":
 
 * Modern looking browser web front end (desktop and mobile)
 * Data grids (high performance with millions of records and hundreds of columns)
