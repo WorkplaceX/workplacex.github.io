@@ -15,14 +15,14 @@ Get started with the following simple code examples:
 * [Data Lookup Window](#data-lookup-window) (Data lookup up or autocomplete window)
 * [Customize Design](#customize-design) (Change web site template)
 
-## Hello World Text
-Watch the following 2:12 minutes video. It shows how to add a hello world text, a data grid and a lookup window. It follows the code examples described on this page.
+## Video Tutorial
+This short 2:12 minutes video shows how to add a hello world text, a data grid and a lookup window. It follows the code examples described on this page.
 
 <div class="youtube-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TnYavCQ2pgM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-
+## Hello World Text
 Let's render a simple "Hello World" text to the web application. The class AppMain represents the main application and derives from frameworks AppJson class. The parameterless constructor is used for json deserialization. The second constructor is used when the object is created programmatically. For example with the extension method ComponentCreate();
 
 ```csharp
