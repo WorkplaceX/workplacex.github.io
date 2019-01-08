@@ -2,3 +2,6 @@ title: WorkplaceX.org
 theme: jekyll-theme-cayman
 description: Boost your App
 google_analytics: UA-113889105-2
+
+plugins:
+  - jekyll-sitemap
