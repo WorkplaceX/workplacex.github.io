@@ -6,7 +6,7 @@ active: 1
 --- 
 
 # Getting Started
-"Demo" web application is a comprehensive example to get started with. The following two components already need to be installed on the machine as prerequisite:
+"Demo" web application is a comprehensive example to get started with. The following two components need to be installed on the machine as prerequisite:
 
 * [Node.js](https://nodejs.org/en/) (LTS Version)
 * [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
