@@ -28,12 +28,9 @@ Allow thousands of users to access and manage your companies data in a controlle
 Deliver complex web applications, without having to touch Html or JavaScript when adding new sql columns, tables or views. The framework fully supports continuous integration and delivery (CI/CD) and optimizes development cycles.
 
 # Live Example
-
 See a live example: [https://demo.WorkplaceX.org](https://demo.workplacex.org)
 
 ## GitHub
-![GitHub](Doc/GitHub-Mark-32px.png)
-
 Or download the source code from GitHub: **[ApplicationDemo](https://github.com/WorkplaceX/ApplicationDemo)** 
 
 Additionally, WorkplaceX business applications run also embedded in SharePoint or on any company web page. This is how it works: [EmbeddedApplication](https://github.com/WorkplaceX/Framework/wiki/Embedded-Application). And this is how it looks like (Beta Release):
