@@ -25,7 +25,10 @@ It standardizes and simplifies the process of building enterprise business appli
 
 Allow thousands of users to access and manage your companies data in a controlled manner. Be flexible and evolve business models as the marked changes.
 
-Deliver complex web applications, without having to touch Html or JavaScript when adding new sql columns, tables or views. The framework fully supports continuous integration and delivery (CI/CD) and optimizes development cycles.
+Deliver complex web applications, without having to touch Html or JavaScript when adding new sql columns, tables or views. The framework fully supports continuous integration and delivery (CI/CD) and seamlessly integrates with
+
+* [Travis CI](https://travis-ci.org/)
+* [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/)
 
 # Live Example
 See a live example: [https://demo.WorkplaceX.org](https://demo.workplacex.org)
