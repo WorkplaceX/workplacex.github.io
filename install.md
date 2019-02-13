@@ -16,6 +16,7 @@ For development the following tools are recommended. However, the web "Demo Appl
 * [MS SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Works with developer edition).
 * [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)
 * [Visual Studio](https://visualstudio.microsoft.com/vs/) (Works with community edition). Install the following component
+
 ![Cli](Doc/VisualStudioPrerequisite.png)
 
 ## Video Tutorial
