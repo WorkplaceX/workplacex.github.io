@@ -6,10 +6,17 @@ active: 1
 --- 
 
 # Getting Started
-"Demo" web application is a comprehensive example to get started with. The following two components need to be installed on the machine as prerequisite:
+Web "Demo Application" is a comprehensive example to get started with. The following two components need to be installed on the machine as prerequisite:
 
 * [Node.js](https://nodejs.org/en/) (LTS Version)
 * [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
+
+## Tools
+For development the following tools are recommended. However, the web "Demo Application" can be started from command prompt without Visual Studio being installed. It needs only access to an MS-SQL Server.
+* [MS SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Works with developer edition).
+* [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)
+* [Visual Studio](https://visualstudio.microsoft.com/vs/) (Works with community edition). Install the following component
+![Cli](Doc/VisualStudioPrerequisite.png)
 
 ## Video Tutorial
 Following short 2:30 minutes video shows step by step installation process of git clone, build, deploy and starting the web application.
