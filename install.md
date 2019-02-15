@@ -12,7 +12,7 @@ Web "Demo Application" is a comprehensive example to get started with. The follo
 * [.NET Core](https://dotnet.microsoft.com/download) (Version 2.1)
 
 ## Tools
-The web "Demo Application" can be started from command prompt without Visual Studio being installed. It needs only access to an MS-SQL Server. For development the following tools are recommended:
+The web "Demo Application" can be started from command prompt without Visual Studio or other tools being installed. It needs only access to an MS-SQL Server. For code development the following tools are recommended:
 * [MS-SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Works with developer edition).
 * [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) (SSMS)
 * [Git](https://git-scm.com/downloads)
