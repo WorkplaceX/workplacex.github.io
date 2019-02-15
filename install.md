@@ -14,7 +14,7 @@ Web "Demo Application" is a comprehensive example to get started with. The follo
 ## Tools
 The web "Demo Application" can be started from command prompt without Visual Studio being installed. It needs only access to an MS-SQL Server. For development the following tools are recommended:
 * [MS-SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Works with developer edition).
-* [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)
+* [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) (SSMS)
 * [Visual Studio](https://visualstudio.microsoft.com/vs/) (Works with community edition). Install the following component:
 
 ![Cli](Doc/VisualStudioPrerequisite.png)
