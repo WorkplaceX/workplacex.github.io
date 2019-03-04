@@ -13,7 +13,7 @@ Web "Demo Application" is a comprehensive example to get started with. The follo
 
 ## Tools
 The web "Demo Application" can be started from command prompt without Visual Studio or other tools being installed. It needs only access to an MS-SQL Server. For code development the following tools are recommended:
-* [MS-SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Works with developer edition).
+* [MS-SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Works with developer edition). Install before VS See also: [stackexchange](https://dba.stackexchange.com/questions/190090/help-installing-sql-server-2017-vs-shell-installation-has-failed-with-exit-cod)
 * [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) (SSMS)
 * [Git](https://git-scm.com/downloads)
 * [PoshGit](https://github.com/WorkplaceX/Research/tree/master/PoshGit) Git state visualization
