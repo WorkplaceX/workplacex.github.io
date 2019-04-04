@@ -7,7 +7,7 @@ active: 1
 
 # About
 
-WorkplaceX is an initiative to simplify and standardize the development of business applications. It runs on any web browser and is based on ASP.NET Core and Angular 6.
+WorkplaceX is an initiative to simplify and standardize the development of business applications. It is based on ASP.NET Core and Angular 6.
 
 ## Online Support
 
