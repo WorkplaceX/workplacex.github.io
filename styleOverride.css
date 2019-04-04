@@ -52,3 +52,15 @@ img {
 {
   border-color:white
 }
+
+ul {
+  list-style:none;
+}
+
+li:before {
+  content: '✓ ';
+  font-weight: bold;
+  margin-left: -1em;
+  margin-right: 0.5em;
+  color: green;
+}
