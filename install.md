@@ -49,7 +49,7 @@ Build the application from command line:
 ```cmd
 .\cli.cmd build
 ```
-Build process creates the two config files, if not exist
+Build process creates the two config files with default values, if not exist
 * ConfigCli.json
 * ConfigWebServer.json
 
