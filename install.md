@@ -49,6 +49,9 @@ Build the application from command line:
 ```cmd
 .\cli.cmd build
 ```
+Build process creates the two config files, if not exist
+* ConfigCli.json
+* ConfigWebServer.json
 
 ## ConnectionString
 Set ConnectionString with command line interface:
@@ -56,7 +59,7 @@ Set ConnectionString with command line interface:
 .\cli.cmd config ConnectionString="Data Source=localhost; Initial Catalog=Application; Integrated Security=True;"
 ```
 
-It creates or updates the files: "ConfigCli.json" and "ConfigWebServer.json".
+It creates or updates the config files: "ConfigCli.json" and "ConfigWebServer.json".
 
 {:.note}
 **Note:** Why does "ConfigCli.json" and "ConfigWebServer.json" have two ConnectionStrings? The framework needs a couple of sql tables (prefixed with "Framework") to run. These tables can be deployed to a second, separate (empty) database. This makes it possible to wiretap an existing production database initially with a ready only user login. Like this it's possible to test and demonstrate the frameworks capabilities to customers in a non-critical way.
