@@ -23,6 +23,8 @@
     
     <!-- Override css-->
     <link rel="stylesheet" href="styleOverride.css">
+
+    <base href="/">
   </head>
   <body>
     <section class="page-header" style="background: url('background.jpg'); background-size:cover; border-bottom-style: solid; border-bottom-width:1px; border-bottom-color: black;">
@@ -35,7 +37,7 @@
       
 {% assign doclist = site.pages | where: 'active', '1' | sort: 'pageindex'  %}      
 {% for item in doclist %}
-    <a href="{{ item.path }}" class="btn{% if item.url == page.url %} active{% endif %}">{{ item.title }}</a>
+    <a href="{{ item.path }}/" class="btn{% if item.url == page.url %} active{% endif %}">{{ item.title }}</a>
 {% endfor %}
       
     </section>
