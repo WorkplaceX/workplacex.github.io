@@ -1,6 +1,5 @@
 ---
 title: Install
-path: install
 pageindex: 05
 active: 1
 --- 

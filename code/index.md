@@ -1,6 +1,5 @@
 ---
 title: Code
-path: code
 pageindex: 10
 active: 1
 --- 

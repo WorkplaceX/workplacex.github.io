@@ -1,6 +1,5 @@
 ---
 title: About
-path: about
 pageindex: 20
 active: 1
 --- 
