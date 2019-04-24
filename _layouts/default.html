@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <title>WorkplaceX.org - Web Application Framework | {{ page.title }}</title>
-{% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -35,18 +34,37 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
       
-{% assign doclist = site.pages | where: 'active', '1' | sort: 'pageindex'  %}      
-{% for item in doclist %}
-    <a href="{{ item.url }}" class="btn{% if item.url == page.url %} active{% endif %}">{{ item.title }}</a>
-{% endfor %}
-      
+      {% assign pageList = site.pages | where: 'active', '1' | sort: 'pageindex'  %}      
+      {% for item in pageList %}
+        {% assign level = item.url | split: "/" | size %}
+        {% if level <= 2  %}
+          <a href="{{ item.url }}" class="btn{% if item.url == page.url %} active{% endif %}">{{ item.title }}</a>
+        {% endif %}
+      {% endfor %}
     </section>
+
+    <div class="sidebar">
+      <div class="main-content">
+        {% assign pageLevelList = page.url | split: "/" %}        
+        {% assign pageLevel1 = pageLevelList[1] %}        
+        {% assign pageList = site.pages | where: 'active', '1' | sort: 'pageindex'  %}      
+        {% for item in pageList %}
+          {% assign itemLevelList = item.url | split: "/" %}
+          {% assign itemLevel1 = itemLevelList[1] %}
+          {% assign level = item.url | split: "/" | size %}
+          {% if level > 2  %}
+            {% if pageLevel1 == itemLevel1 %}
+              <a href="{{ item.url }}" class="{% if item.path == page.path or page.parent == item.path %} active{% endif %}">{{ item.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
 
     <section class="main-content">
       {{ content }}
 
       <data-app></data-app>
-      
     </section>
     
     <footer class="py-4 bg-dark text-white-50">
