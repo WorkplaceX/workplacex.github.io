@@ -89,8 +89,11 @@ public class AppCliMain : AppCli
 {
     protected override void CommandGenerateBuiltIn(List<GenerateBuiltInItem> list)
     {
-        var rowList = Data.Select<Row>(Data.Query<Country>());
-        list.Add(new GenerateBuiltInItem(isApplication: false, typeof(Country), rowList));
+        var countryList = Data.Select(Data.Query<CountryBuiltIn>());
+        list.Add(GenerateBuiltInItem.Create(countryList));
+
+        var cityList = Data.Select(Data.Query<CityBuiltIn>());
+        list.Add(GenerateBuiltInItem.Create(cityList));
     }
 
     protected override void CommandDeployDbBuiltIn(List<DeployDbBuiltInItem> list)
