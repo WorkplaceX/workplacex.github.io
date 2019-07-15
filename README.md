@@ -9,6 +9,13 @@ Clone Website https://workplacex.org/ source code and serve it locally to modify
 git clone https://github.com/WorkplaceX/workplacex.github.io.git
 ```
 
+## Install
+For Windows install : https://rubyinstaller.org/downloads/ Ruby+Devkit 2.5.5-1 (x64)
+```cmd
+gem install bundler jekyll
+bundle install
+```
+
 ## Jekyll Serve
 ```cmd
 bundle exec jekyll serve
