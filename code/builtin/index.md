@@ -28,7 +28,7 @@ GO
 CREATE VIEW CountryBuiltIn AS
 SELECT
     Id,
-    Name AS IdName,
+    Name AS IdName, -- Used for tables referencing table Country.Id
     Name
 FROM
     Country
