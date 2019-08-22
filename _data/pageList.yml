@@ -1,0 +1,27 @@
+pageList:
+
+- title: Home
+  url: /
+  pageList:
+
+- title: Install
+  url: /install/
+  pageList:
+
+- title: Code
+  url: /code/
+  pageList:
+
+  - title: Connection String
+    url: /code/connectionstring/
+    pageList:
+
+  - title: BuiltIn
+    url: /code/builtin/
+    pageList:
+
+- title: About
+  url: /about/
+  pageList:
+
+
