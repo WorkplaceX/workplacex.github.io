@@ -1,7 +1,5 @@
 ---
-title: About
-pageindex: 20
-active: 1
+title: About WorkplaceX Initiative
 --- 
 
 # About

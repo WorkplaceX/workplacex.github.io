@@ -1,8 +1,5 @@
 ---
-title: Home
-path: /
-pageindex: 00
-active: 1
+title: Business Application Framework
 --- 
 
 # Web Application Framework

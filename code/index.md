@@ -1,7 +1,5 @@
 ---
-title: Code
-pageindex: 10
-active: 1
+title: Simple Source Code Examples in C# Sharp
 --- 
 
 # Code Examples

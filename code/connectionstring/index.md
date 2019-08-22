@@ -1,7 +1,5 @@
 ---
-title: ConnectionString
-pageindex: 10
-active: 1
+title: Setup Database ConnectionString for Framework
 --- 
 
 # Database ConnectionString

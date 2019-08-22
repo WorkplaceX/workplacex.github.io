@@ -1,7 +1,5 @@
 ---
-title: BuiltIn
-pageindex: 11
-active: 1
+title: BuiltIn Infrastructure to Save Configuration Data
 --- 
 
 # BuiltIn

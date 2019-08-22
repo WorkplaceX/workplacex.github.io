@@ -1,7 +1,5 @@
 ---
-title: Install
-pageindex: 05
-active: 1
+title: Install the Application Framework from Scratch
 --- 
 
 # Getting Started

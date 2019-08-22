@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <title>WorkplaceX.org - Web Application Framework | {{ page.title }}</title>
+    <title>WorkplaceX - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -36,13 +36,13 @@
       {% for itemLevel1 in site.data.pageList.pageList %}
         {% if itemLevel1.url == page.url %} <!-- Selected page is Level1 -->
           {% for itemLevel12 in site.data.pageList.pageList %}
-            <a href="{{ itemLevel12.url }}" class="btn{% if itemLevel12.url == page.url %} active{% endif %}">{{ itemLevel12.title }}</a>
+            <a href="{{ itemLevel12.url }}" class="btn{% if itemLevel12.url == page.url %} active{% endif %}">{{ itemLevel12.text }}</a>
           {% endfor %}
         {% endif %}
         {% for itemLevel2 in itemLevel1.pageList %}
           {% if itemLevel2.url == page.url %} <!-- Selected page is Level2 -->
             {% for itemLevel12 in site.data.pageList.pageList %}
-              <a href="{{ itemLevel12.url }}" class="btn{% if itemLevel12.url == itemLevel1.url %} active{% endif %}">{{ itemLevel12.title }}</a>
+              <a href="{{ itemLevel12.url }}" class="btn{% if itemLevel12.url == itemLevel1.url %} active{% endif %}">{{ itemLevel12.text }}</a>
             {% endfor %}
           {% endif %}
         {% endfor %}
@@ -57,13 +57,13 @@
         {% for itemLevel1 in site.data.pageList.pageList %}
           {% if itemLevel1.url == page.url %} <!-- Selected page is Level1 -->
             {% for itemLevel2 in itemLevel1.pageList %}
-              <a href="{{ itemLevel2.url }}">{{ itemLevel2.title }}</a>
+              <a href="{{ itemLevel2.url }}">{{ itemLevel2.text }}</a>
             {% endfor %}
           {% endif %}
           {% for itemLevel2 in itemLevel1.pageList %}
             {% if itemLevel2.url == page.url %} <!-- Selected page is Level2 -->
               {% for itemLevel22 in itemLevel1.pageList %}
-                <a href="{{ itemLevel22.url }}" class="{% if itemLevel22.url == page.url %}active{% endif %}">{{ itemLevel22.title }}</a>
+                <a href="{{ itemLevel22.url }}" class="{% if itemLevel22.url == page.url %}active{% endif %}">{{ itemLevel22.text }}</a>
               {% endfor %}
             {% endif %}
           {% endfor %}
