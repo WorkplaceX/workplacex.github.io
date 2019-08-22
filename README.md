@@ -21,3 +21,12 @@ bundle install
 bundle exec jekyll serve
 ```
 Open local website http://127.0.0.1:4000
+
+## Jekyll Build
+```cmd
+bundle exec jekyll build
+```
+Creates folder "_site"
+
+## Sitemap
+Open local website http://127.0.0.1:4000/sitemap.xml
