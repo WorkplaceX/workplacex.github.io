@@ -20,8 +20,10 @@ pageList:
     url: /code/builtin/
     pageList:
 
+- text: Demo
+  url: /demo/
+  pageList:
+
 - text: About
   url: /about/
   pageList:
-
-

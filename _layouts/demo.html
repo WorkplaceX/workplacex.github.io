@@ -8,8 +8,18 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     
+    <!-- flag-icon-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Framework css-->
+    <link rel="stylesheet" href="https://demo.workplacex.org/frameworkStyle.css">
+    
     <!-- Override css-->
     <link rel="stylesheet" href="/styleOverride.css">
 
@@ -63,13 +73,13 @@
 
     <section class="main-content">
       {{ content }}
+
+      <data-app></data-app>
     </section>
     
-    <footer class="py-4 bg-dark text-white-50">
-      <div class="container text-center">
-        <small>&copy; 2019 WorkplaceX.org</small>
-      </div>
-    </footer>
+    <script>
+      var jsonBrowser = {"EmbeddedUrl":"https://demo.workplacex.org/"};
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -77,6 +87,11 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    
+    <script src="https://demo.workplacex.org/runtime.js"></script>
+    <script src="https://demo.workplacex.org/polyfills.js"></script>
+    <script src="https://demo.workplacex.org/main.js"></script>		
+    <script src="https://demo.workplacex.org/bundle.js"></script>    
 
     {% if site.google_analytics %}
       <script>

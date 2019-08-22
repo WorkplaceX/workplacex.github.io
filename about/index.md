@@ -1,5 +1,5 @@
 ---
-title: About WorkplaceX Initiative
+title: About the Software Development Initiative
 --- 
 
 # About
