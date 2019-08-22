@@ -58,7 +58,7 @@ ul {
 }
 
 li:before {
-  content: '✓';
+  content: '\2713';
   font-weight: bold;
   margin-left: -1em;
   margin-right: 0.5em;
@@ -92,4 +92,8 @@ li:before {
 .sidebar .main-content {
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.page-header {
+  padding: 1rem 6rem;
 }
