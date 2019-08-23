@@ -24,6 +24,10 @@ pageList:
   url: /demo/
   pageList:
 
+- text: Blog
+  url: /blog/
+  pageList: 
+
 - text: About
   url: /about/
   pageList:

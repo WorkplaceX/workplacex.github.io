@@ -37,6 +37,13 @@
           {% endif %}
         {% endfor %}
       {% endfor %}
+
+      <!-- Level1 Navigation for Blog-->
+      {% if page.layout == "post" %}
+        {% for itemLevel1 in site.data.pageList.pageList %}
+          <a href="{{ itemLevel1.url }}" class="btn{% if itemLevel1.url == page.url %} active{% endif %}">{{ itemLevel1.text }}</a>
+        {% endfor %}
+      {% endif %}
       
     </section>
 

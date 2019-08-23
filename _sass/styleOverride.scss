@@ -97,3 +97,24 @@ li:before {
 .page-header {
   padding: 1rem 6rem;
 }
+
+.imageContainer {
+  display:grid; 
+  grid-template-rows: 1fr auto;
+  grid-template-columns: minmax(0px, 640px);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.imageItem {
+  grid-row:1 / span 2; 
+  grid-column:1;
+}
+
+.imageItemText {
+  grid-row:2; 
+  grid-column:1; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  padding: 0.5rem;
+}
