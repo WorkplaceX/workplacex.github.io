@@ -2,9 +2,9 @@
 title: Trip to Lanzarote
 layout: post
 ---
-Traveling to Lanzarote island.
+Traveling to Lanzarote island starting at the Lanzarote Airport (ACE)
 
-Lanzarote is an island off the coast of West Africa and belongs to Spain. The largest town Arrecife can be reached from the airport by car in about 15 min. It's located by the ocean. For an excellent view it's worth it to stop by for a coffee at the "Arrecife Gran Hotel & Spa" on 17th floor.
+Lanzarote is an island off the coast of West Africa and belongs to Spain. The largest town Arrecife can be reached from the Lanzarote Airport (ACE) by car in about 15 min. It's located by the ocean. For an excellent view it's worth it to stop by for a coffee at the "Arrecife Gran Hotel & Spa" on 17th floor.
 
 {% include image.html url="/assets/image/blog/2019-04-14 View.jpg" text="View over Arrecife from 17th floor in Star City restaurant" %}
 
