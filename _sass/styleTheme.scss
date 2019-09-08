@@ -1,0 +1,131 @@
+$text-color: #606c71;
+$text-colorTransparent: rgba(255,255,255,0.8);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    color: $text-color;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+html {
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: $text-color;
+}
+
+ul {
+  list-style:none;
+}
+
+li:before {
+    content: '\2713';
+    font-weight: bold;
+    margin-left: -1em;
+    margin-right: 0.5em;
+    color: #159957;
+}
+
+.btn {
+    background-color: rgba(255,255,255,0.2);
+    border-color: #fff;
+    color: $text-colorTransparent;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 0.4rem;
+}
+
+.btn.active {
+    border-color: #fff;
+}
+
+.layoutContainer {
+    display: grid;
+    grid-template-columns: 0.76fr 1.24fr 0.76fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    column-gap: 2rem;
+}
+
+.layoutHeader {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.layoutHeader h1 {
+    margin: 0px;
+}
+
+.layoutHeader h2 {
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    color: $text-colorTransparent;
+}
+
+.layoutSidebar {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.layoutContent {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.layoutBlog {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.layoutFooter {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 3;
+    background-color: #2b3033;
+}
+
+.layoutFooter b {
+    color: white;
+}
+
+.layoutFooter i {
+    color: cornflowerblue;
+}
+
+.layoutFooterContainer {
+    display: grid;
+    grid-template-columns: 1fr 1.62fr 1.62fr;
+    grid-template-rows: auto auto;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.layoutFooterItem1 {
+    grid-column-start: 2;
+}
+
+.layoutFooterItem2 {
+    grid-column-start: 3;
+}
+
+.layoutFooterCopyright {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    text-align: center;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WorkplaceX - {{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/image/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <!-- Css normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+  <!-- Css default -->
+  <link rel="stylesheet" href="/assets/css/styleTheme.css">
+
+  <base href="/">
+</head>
+
+<body>
+  <!-- Css grid -->
+  <div class="layoutContainer">
+
+    <!-- Header -->
+    <div class="layoutHeader" style="background: url('/assets/image/background.jpg'); background-size:cover; background-position: center; border-bottom-style: solid; border-bottom-width:1px; border-bottom-color: black;">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+      <!-- Level1 Navigation -->
+      {% for itemLevel1 in site.data.pageList.pageList %}
+      {% if itemLevel1.url == page.url %}
+      <!-- Selected page is Level1 -->
+      {% for itemLevel12 in site.data.pageList.pageList %}
+      <a href="{{ itemLevel12.url }}" class="btn{% if itemLevel12.url == page.url %} active{% endif %}">{{ itemLevel12.text }}</a>
+      {% endfor %}
+      {% endif %}
+      {% for itemLevel2 in itemLevel1.pageList %}
+      {% if itemLevel2.url == page.url %}
+      <!-- Selected page is Level2 -->
+      {% for itemLevel12 in site.data.pageList.pageList %}
+      <a href="{{ itemLevel12.url }}" class="btn{% if itemLevel12.url == itemLevel1.url %} active{% endif %}">{{ itemLevel12.text }}</a>
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+
+      <!-- Level1 Navigation for Blog-->
+      {% if page.layout == "post" %}
+      {% for itemLevel1 in site.data.pageList.pageList %}
+      <a href="{{ itemLevel1.url }}" class="btn{% if itemLevel1.url == page.url %} active{% endif %}">{{ itemLevel1.text }}</a>
+      {% endfor %}
+      {% endif %}
+
+    </div>
+
+    <!-- Sidebar -->
+    <div class="layoutSidebar" class="sidebar">
+
+      <!-- Level2 Navigation -->
+      {% for itemLevel1 in site.data.pageList.pageList %}
+      {% if itemLevel1.url == page.url %}
+      <!-- Selected page is Level1 -->
+      {% for itemLevel2 in itemLevel1.pageList %}
+      <a href="{{ itemLevel2.url }}">{{ itemLevel2.text }}</a>
+      {% endfor %}
+      {% endif %}
+      {% for itemLevel2 in itemLevel1.pageList %}
+      {% if itemLevel2.url == page.url %}
+      <!-- Selected page is Level2 -->
+      {% for itemLevel22 in itemLevel1.pageList %}
+      <a href="{{ itemLevel22.url }}" class="{% if itemLevel22.url == page.url %}active{% endif %}">{{ itemLevel22.text }}</a>
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+
+    </div>
+
+    <!-- Content -->
+    <div class="layoutContent">
+      {{ content }}
+    </div>
+
+    <!-- Blog Posts -->
+    <div class="layoutBlogPosts">
+      <h2>Blog</h2>
+      {% for post in site.posts %}
+      <a href="{{ post.url }}">{{ post.title }}</a>{{ post.excerpt }}
+      {% endfor %}
+    </div>
+
+    <!-- Footer -->
+    <div class="layoutFooter">
+      <div class="layoutFooterContainer">
+        <div class="layoutFooterItem1">
+          <b>Social</b>
+          <p>
+            <a href="https://github.com/WorkplaceX"><i class="fab fa-github"></i> GitHub</a><br />
+            <a href="https://www.youtube.com/channel/UCQjeWu5dJ6Lulvp4g66Oybw"><i class="fab fa-youtube"></i> Youtube</a>
+          </p>
+        </div>
+        <div class="layoutFooterItem2">
+          <b>Project</b>
+          <p>
+            <a href="/about/"><i class="fas fa-address-card"></i> About</a><br />
+            <a href="/blog/"><i class="fas fa-rss"></i> Blog</a><br />
+            <i class="fas fa-envelope"></i> info(at)workplacex.org
+          </p>
+        </div>
+        <div class="layoutFooterCopyright">
+          <small>&copy; 2017-2019 WorkplaceX.org</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if site.google_analytics %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
+
+</html>
