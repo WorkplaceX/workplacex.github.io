@@ -10,6 +10,7 @@ git clone https://github.com/WorkplaceX/workplacex.github.io.git
 ```
 
 ## Install
+For Ubuntu 18.04 see: https://jekyllrb.com/docs/installation/ubuntu/
 For Windows install : https://rubyinstaller.org/downloads/ Ruby+Devkit 2.5.5-1 (x64)
 ```cmd
 gem install bundler jekyll
