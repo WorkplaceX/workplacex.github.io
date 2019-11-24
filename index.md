@@ -26,6 +26,7 @@ Allow thousands of users to access and manage your companies data in a controlle
 Deliver complex web applications, without having to touch Html or JavaScript when adding new sql columns, tables or views. The framework fully supports continuous integration and delivery (CI/CD) and seamlessly integrates with
 
 * [Travis CI](https://travis-ci.org/)
+* [GitHub Actions](https://github.com/features/actions)
 * [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/)
 
 # Live Example
