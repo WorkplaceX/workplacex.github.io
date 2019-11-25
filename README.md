@@ -29,5 +29,8 @@ bundle exec jekyll build
 ```
 Creates folder "_site"
 
+## Add a new Site
+Register it in _data/pageList.yml collection
+
 ## Sitemap
 Open local website http://127.0.0.1:4000/sitemap.xml
