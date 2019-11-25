@@ -88,4 +88,4 @@ Following cli command generates for every table and view in the database a C# cl
 .\cli.cmd generate
 ```
 
-Follow this article on how to display an sql table or view in the web application: **[Code Examples](code.md)**
+Follow this article on how to display an sql table or view in the web application: **[Code Examples](../code/)**
