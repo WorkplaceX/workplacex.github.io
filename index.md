@@ -35,5 +35,4 @@ See a live example: [https://demo.WorkplaceX.org](https://demo.workplacex.org)
 ## GitHub
 Or download the source code from GitHub: **[ApplicationDemo](https://github.com/WorkplaceX/ApplicationDemo)** 
 
-Additionally, WorkplaceX business applications run also embedded in SharePoint or on any company web page. This is how it works: [EmbeddedApplication](https://github.com/WorkplaceX/Framework/wiki/Embedded-Application). And this is how it looks like (Beta Release):
-
+Additionally, WorkplaceX business applications run also embedded in SharePoint or on any already existing company web page by just adding a few lines of html code.
