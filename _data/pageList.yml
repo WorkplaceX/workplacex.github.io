@@ -20,6 +20,10 @@ pageList:
     url: /code/builtin/
     pageList:
 
+  - text: Embed App
+    url: /code/embed/
+    pageList:
+
 - text: Demo
   url: /demo/
   pageList:
