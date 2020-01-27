@@ -6,7 +6,7 @@ title: Install the Application Framework from Scratch
 Web "Demo Application" is a comprehensive example to get started with. The following two components need to be installed on the machine as prerequisite:
 
 * [Node.js](https://nodejs.org/en/) (LTS Version)
-* [.NET Core](https://dotnet.microsoft.com/download) (Version 3.0)
+* [.NET Core](https://dotnet.microsoft.com/download) (Version 3.1)
 
 ## Tools
 The web "Demo Application" can be started from command prompt without Visual Studio or other tools being installed. It needs only access to an MS-SQL Server. For code development the following tools are recommended:
