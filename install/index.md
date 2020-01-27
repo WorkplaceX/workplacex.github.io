@@ -76,7 +76,7 @@ Serve the application from command line:
 .\cli.cmd start
 ```
 
-Web browser opens on "http://localhost:56098/" and serves "Demo" application.
+Web browser opens on "http://localhost:50919/" and serves "Demo" application.
 
 ## Custom Sql Table and View
 
