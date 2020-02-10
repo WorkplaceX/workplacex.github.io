@@ -18,7 +18,7 @@
     <base href="/">
   </head>
   <body>
-
+    
     <section class="page-header" style="background: url('/assets/image/background.jpg'); background-size:cover; border-bottom-style: solid; border-bottom-width:1px; border-bottom-color: black;">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
@@ -45,6 +45,8 @@
           <a href="{{ itemLevel1.url }}" class="btn{% if itemLevel1.url == page.url %} active{% endif %}">{{ itemLevel1.text }}</a>
         {% endfor %}
       {% endif %}
+
+      <a href="https://github.com/WorkplaceX/ApplicationDemo" class="btn"><img src="../assets/image/GitHub-Mark-Light-32px.png">&nbsp;&nbsp;GitHub</a>
       
     </section>
 
