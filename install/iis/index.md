@@ -15,5 +15,4 @@ For Angular server side rendering to run on IIS Server "iisnode-full.msi" has to
 
 After successful installation Windows "add remove programs" should look like this:
 
-![IIS Node](Doc/InstallIISNode.png)
-
+{% include image.html url="Doc/InstallIISNode.png" text="Install IIS Node" %}

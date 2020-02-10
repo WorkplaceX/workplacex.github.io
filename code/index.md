@@ -70,7 +70,7 @@ By default it comes with
 * Filtering
 * Adding new records
 
-![Data grid](Doc/Grid.png)
+{% include image.html url="Doc/Grid.png" text="Data grid" %}
 
 ## Data Annotation
 Adding visual icons to your data application brings a lot of benefits. For example just adding the phone icon [Font Awesome phone](https://fontawesome.com/icons/phone?style=solid) to the telephone column makes it look much more appealing to the end user.
@@ -101,7 +101,7 @@ protected override void GridCellAnnotation(Grid grid, string fieldName, GridRowE
 
 Now the data grid looks like this:
 
-![Data grid with annotation](Doc/GridAnnotation.png)
+{% include image.html url="Doc/GridAnnotation.png" text="Data grid with annotation" %}
 
 # Data Lookup Window
 
@@ -146,7 +146,7 @@ public class AppMain : AppJson
 
 Following screen shot shows open lookup or auto complete window on column "Text" to select a country.
 
-![Data grid with lookup window](Doc/Lookup.png)
+{% include image.html url="Doc/Lookup.png" text="Data grid with lookup window" %}
 
 # Customize Design
 

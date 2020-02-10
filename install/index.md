@@ -16,7 +16,7 @@ The web "Demo Application" can be started from command prompt without Visual Stu
 * [PoshGit](https://github.com/WorkplaceX/Research/tree/master/PoshGit) Git state visualization
 * [Visual Studio](https://visualstudio.microsoft.com/vs/) (Works with community edition). Install the following component:
 
-![Cli](Doc/VisualStudioPrerequisite.png)
+{% include image.html url="Doc/VisualStudioPrerequisite.png" text="Cli" %}
 
 ## Video Tutorial
 Following short 2:30 minutes video shows step by step installation process of git clone, build, deploy and starting the web application.
@@ -39,7 +39,7 @@ cd ApplicationDemo
 ```
 All available framework CLI commands are listed like this:
 
-![Cli](Doc/Cli.png)
+{% include image.html url="Doc/Cli.png" text="Cli" %}
 
 ## Build
 Build the application from command line:

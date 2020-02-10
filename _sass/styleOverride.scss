@@ -1,5 +1,5 @@
-.main-content table td{ padding:0px; }
-.main-content table th{ padding:0px; }
+.main-content table td { padding:0px; }
+.main-content table th { padding:0px; }
 .main-content table { display:table; }
 
 @media screen and (max-width: 42em) {
@@ -99,9 +99,11 @@ li:before {
 }
 
 .imageTextContainer {
-  display:grid; 
-  grid-template-rows:1fr auto;
-  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+  display: grid; 
+  grid-template-rows: 1fr auto;
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .imageTextItem {
@@ -119,4 +121,8 @@ li:before {
 
 li:before {
   visibility: hidden;
+}
+
+a, a:hover{
+  text-decoration: none;
 }
