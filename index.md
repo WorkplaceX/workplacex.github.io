@@ -21,7 +21,7 @@ It standardizes and simplifies the process of building enterprise business appli
 
 * ASP.NET Core 3.1
 * Bootstrap 4
-* Angular 8.2 (Also server side rendering for high performance first page load)
+* Angular 9.1 (Also server side rendering for high performance first page load)
 
 Allow thousands of users to access and manage your companies data in a controlled manner. Be flexible and evolve business models as the marked changes.
 
