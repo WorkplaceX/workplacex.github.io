@@ -28,10 +28,6 @@ pageList:
     url: /code/embed/
     pageList:
 
-- text: Demo
-  url: /demo/
-  pageList:
-
 - text: Blog
   url: /blog/
   pageList: 
