@@ -5,6 +5,8 @@ title: Business Application Framework
 # Web Application Framework
 WorkplaceX is an open source framework to simplify business application development. It provides the following features "out of the box":
 
+{% include image.html url="Doc/Demo.png" text="Demo Application" %}
+
 * Data grids (high performance with millions of records and hundreds of columns)
 * Paging (horizontal and vertical), sorting, filtering
 * Lookup window and autocomplete function
