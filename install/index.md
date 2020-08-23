@@ -13,7 +13,7 @@ The web "Demo Application" can be started from command prompt without Visual Stu
 * [MS-SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Works with developer edition). Install before VS See also: [stackexchange](https://dba.stackexchange.com/questions/190090/help-installing-sql-server-2017-vs-shell-installation-has-failed-with-exit-cod)
 * [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) (SSMS)
 * [Git](https://git-scm.com/downloads)
-* [PoshGit](https://github.com/WorkplaceX/Research/tree/master/PoshGit) Git state visualization
+* [PoshGit](https://github.com/WorkplaceX/Util/tree/master/PoshGit) Git state visualization
 * [Visual Studio](https://visualstudio.microsoft.com/vs/) (Works with community edition). Install the following component:
 
 {% include image.html url="Doc/VisualStudioPrerequisite.png" text="Cli" %}
