@@ -25,13 +25,9 @@ Let's render a simple "Hello World" text to the web application. The class AppMa
 ```csharp
 public class AppMain : AppJson
 {
-    public AppMain() : this(null) { }
-
-    public AppMain(ComponentJson owner) : base(owner) { }
-
     protected override Task InitAsync()
     {
-        this.ComponentCreate<Html>().TextHtml = "Hello World!";
+        new Html(this) { TextHtml = "Hello World!" };
         return base.InitAsync();
     }
 }
@@ -43,14 +39,10 @@ Now let's add a data grid to our web application. The extension method Component
 ```csharp
 public class AppMain : AppJson
 {
-    public AppMain() : this(null) { }
-
-    public AppMain(ComponentJson owner) : base(owner) { }
-
     protected override async Task InitAsync()
     {
         // Create a reference point in component tree and initiate loading.
-        await this.ComponentCreate<Grid>().LoadAsync(); 
+        await new Grid<HelloWorld>().LoadAsync(); 
     }
 
     protected override IQueryable GridQuery(Grid grid)
@@ -112,13 +104,9 @@ Override the method GridLookupQuery(); to return the query for the look up windo
 ```csharp
 public class AppMain : AppJson
 {
-	public AppMain() : this(null) { }
-
-	public AppMain(ComponentJson owner) : base(owner) { }
-
 	protected override async Task InitAsync()
 	{
-		await this.ComponentCreate<Grid>().LoadAsync();
+		await new Grid<HelloWorld>(this).LoadAsync();
 	}
 
 	protected override IQueryable GridQuery(Grid grid)
