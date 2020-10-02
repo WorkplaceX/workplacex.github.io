@@ -12,7 +12,7 @@ pageList:
     url: /install/iis/
     pageList:
 
-- text: <i class="fab fa-angular"></i> Code
+- text: <i class="fas fa-code-branch"></i> Code
   url: /code/
   pageList:
 
