@@ -5,7 +5,7 @@ title: About the Software Development Initiative
 
 # About
 
-WorkplaceX is an initiative to simplify and standardize the development of business applications. It is based on ASP.NET Core and Angular.
+WorkplaceX is an initiative to simplify and standardize the development of business applications. It is based on ASP.NET Core, Angular, Bootstrap, Bulma and SQL Server.
 
 ## Online Support
 
