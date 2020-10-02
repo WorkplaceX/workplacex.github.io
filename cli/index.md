@@ -8,3 +8,5 @@ Provides all commands for application development
 * generate (Generate CSharp code classes from database schema)
 * start (Start server and open client in browser)
 * test (Run unit tests)
+
+{% include image.html url="Doc/Cli.png" text="Cli" %}
