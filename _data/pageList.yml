@@ -28,7 +28,7 @@ pageList:
     url: /code/embed/
     pageList:
 
-- text: Cli
+- text: <i class="fas fa-terminal"></i>CLI
   url: /cli/
   pageList:
 
