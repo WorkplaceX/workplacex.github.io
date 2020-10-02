@@ -28,6 +28,10 @@ pageList:
     url: /code/embed/
     pageList:
 
+- text: Cli
+  url: /cli/
+  pageList:
+
 - text: Blog
   url: /blog/
   pageList: 
