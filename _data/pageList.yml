@@ -1,6 +1,6 @@
 pageList:
 
-- text: Home
+- text: <i class="fas fa-home"></i> Home
   url: /
   pageList:
 
@@ -12,7 +12,7 @@ pageList:
     url: /install/iis/
     pageList:
 
-- text: Code
+- text: <i class="fab fa-angular"></i> Code
   url: /code/
   pageList:
 
@@ -36,6 +36,6 @@ pageList:
   url: /blog/
   pageList: 
 
-- text: About
+- text: <i class="fas fa-info-circle"></i> About
   url: /about/
   pageList:
