@@ -12,7 +12,7 @@ WorkplaceX is an open source framework to simplify business application developm
 * Lookup window and autocomplete function
 * Master detail relations
 * Modern looking browser web front end (desktop and mobile)
-* Menue Navigation
+* Menu Navigation
 * Data access to SQL server and/or memory
 * Multilanguage support
 * Configuration
