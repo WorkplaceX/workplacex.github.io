@@ -3,7 +3,7 @@ title: Install the Application Framework from Scratch
 --- 
 
 # Getting Started
-Web "Demo Application" is a comprehensive example to get started with. The following two components need to be installed on the machine as prerequisite:
+Web [Demo Application](https://github.com/WorkplaceX/ApplicationDemo) is a comprehensive example to get started with. The following two components need to be installed on the machine as prerequisite:
 
 * [Node.js](https://nodejs.org/en/) (LTS Version)
 * [.NET Core](https://dotnet.microsoft.com/download) (Version 3.1)
