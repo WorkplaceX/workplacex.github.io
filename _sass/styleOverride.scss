@@ -305,3 +305,14 @@ app-root .th {
     font-weight:600
   }
 }
+
+/* Custom */
+@media (min-width:991px)
+{
+  .site-footer-right
+  {
+    background-color:yellow;
+    text-align: right
+  }
+}
+
