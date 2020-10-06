@@ -11,7 +11,7 @@ WorkplaceX is an initiative to simplify and standardize the development of busin
 
 We provide online support. Send us an email to **info(at)workplacex.org**
 
-Please also feel free to contact us by twitter [twitter.com/workplacex](https://twitter.com/workplacex)
+Please also feel free to contact us by twitter **[twitter.com/workplacex](https://twitter.com/workplacex)**
 
 ## Support Us
 Your support is vital in enabling Workplacex.org initiative to fulfill its mission to share and further develop its code base. You can do so by:
