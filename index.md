@@ -19,7 +19,7 @@ WorkplaceX is an open source framework to simplify business application developm
 
 It standardizes and simplifies the process of building enterprise business applications on top of existing SQL Server Databases. It can be hosted on premise or in the cloud and is based on the following products:
 
-* ASP.NET Core 3.1
+* ASP.NET Core 5.0
 * Bootstrap 4 and/or Bulma
 * Angular 10 (Also server side rendering for high performance first page load)
 * SQL Server
