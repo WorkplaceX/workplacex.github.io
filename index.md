@@ -21,7 +21,7 @@ It standardizes and simplifies the process of building enterprise business appli
 
 * ASP.NET Core 5.0
 * Bootstrap 4 and/or Bulma
-* Angular 10 (Also server side rendering for high performance first page load)
+* Angular 11 (Also server side rendering for high performance first page load)
 * SQL Server
 
 Allow thousands of users to access and manage your companies data in a controlled manner. Be flexible and evolve business models as the marked changes.
