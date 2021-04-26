@@ -1,5 +1,7 @@
 # Website
 
+This repo migrated to the new version: https://github.com/WorkplaceX/ApplicationDoc
+
 Source code for Website: https://workplacex.org/. It's hosted as GitHub page (https://pages.github.com/). GitHub pages are generated with static site generator jekyll (https://jekyllrb.com/). 
 
 Clone Website https://workplacex.org/ source code and serve it locally to modify like this:
